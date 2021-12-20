@@ -33,7 +33,7 @@ class _ExempleState extends State<Exemple> {
           ListTile(
             title: const Text("Exemple switch"),
             onTap: () => open((_) => const SwitchAnimationPage()),
-          )
+          ),
         ],
       ),
     );

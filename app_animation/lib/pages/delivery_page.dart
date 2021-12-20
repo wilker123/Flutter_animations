@@ -19,7 +19,7 @@ class _DeliveryPageState extends State<DeliveryPage> {
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 120, bottom: 24),
-              child: Lottie.network("https://assets7.lottiefiles.com/packages/lf20_dn3xsjbz.json"),
+              child: Lottie.network("https://assets7.lottiefiles.com/packages/lf20_dn3xsjbz.json", width: 250, fit: BoxFit.cover),
             ),
             const Text(
               "José está a caminho",
