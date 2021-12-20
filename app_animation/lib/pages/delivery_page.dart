@@ -16,16 +16,16 @@ class _DeliveryPageState extends State<DeliveryPage> {
         color: Colors.red[900],
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          children: const [
+          children: [
             Padding(
-              padding: EdgeInsets.only(top: 120, bottom: 24),
-              child: Text("Animação **"),
+              padding: const EdgeInsets.only(top: 120, bottom: 24),
+              child: Lottie.network("https://assets7.lottiefiles.com/packages/lf20_dn3xsjbz.json"),
             ),
-            Text(
+            const Text(
               "José está a caminho",
               style: TextStyle(fontSize: 32, letterSpacing: -1.2, fontWeight: FontWeight.w600),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.only(top: 12),
               child: Text("Seu pedido deve chegar em 10 minutos", style: TextStyle(fontSize: 15),),
             ),
