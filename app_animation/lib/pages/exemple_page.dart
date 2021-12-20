@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'delivery_page.dart';
+import 'switch_animation_page.dart';
 
 class Exemple extends StatefulWidget {
   const Exemple({ Key? key }) : super(key: key);
@@ -29,7 +30,10 @@ class _ExempleState extends State<Exemple> {
             onTap: () => open((_) => const DeliveryPage())
           ),
           const Divider(),
-
+          ListTile(
+            title: const Text("Exemple switch"),
+            onTap: () => open((_) => const SwitchAnimationPage()),
+          )
         ],
       ),
     );
