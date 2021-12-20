@@ -29,6 +29,7 @@ class _ExempleState extends State<Exemple> {
             onTap: () => open((_) => const DeliveryPage())
           ),
           const Divider(),
+
         ],
       ),
     );
